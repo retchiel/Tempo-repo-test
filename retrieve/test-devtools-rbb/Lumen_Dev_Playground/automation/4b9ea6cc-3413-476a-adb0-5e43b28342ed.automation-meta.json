@@ -1,0 +1,28 @@
+{
+    "name": "Roman Data Refresh-template",
+    "description": "",
+    "key": "4b9ea6cc-3413-476a-adb0-5e43b28342ed",
+    "type": "scheduled",
+    "status": "PausedSchedule",
+    "schedule": {
+        "typeId": 3,
+        "startDate": "2021-11-23T12:30:00",
+        "endDate": "2021-11-23T12:30:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "timezoneName": "Singapore Standard Time"
+    },
+    "steps": [
+        {
+            "name": "",
+            "step": 1,
+            "activities": [
+                {
+                    "name": "Roman Male Balance Level",
+                    "displayOrder": 1,
+                    "r__type": "filter"
+                }
+            ]
+        }
+    ],
+    "r__folder_Path": "my automations"
+}

@@ -1,0 +1,62 @@
+{
+    "CreatedDate": "2022-02-08T08:52:01.683",
+    "ModifiedDate": "2022-02-08T08:52:01.683",
+    "CustomerKey": "69EE8FE6-FC64-4C56-ADB7-42E9A3FF1FA3",
+    "Name": "Castillo final birthday de-template1644331921194",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "Email_Address"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "First_Name",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Email_Address",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Last_Name",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Birthday",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Gender",
+            "DefaultValue": "",
+            "MaxLength": "10",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

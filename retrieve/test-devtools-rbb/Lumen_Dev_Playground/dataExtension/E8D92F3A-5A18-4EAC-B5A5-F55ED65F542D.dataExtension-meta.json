@@ -1,0 +1,69 @@
+{
+    "CreatedDate": "2022-02-08T03:15:58.193",
+    "ModifiedDate": "2022-02-08T03:15:58.193",
+    "CustomerKey": "E8D92F3A-5A18-4EAC-B5A5-F55ED65F542D",
+    "Name": "1Roman_BirthdayAutomation-template",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "true",
+    "SendableDataExtensionField": {
+        "Name": "Email_Address"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Email_Address",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "First_Name",
+            "DefaultValue": "",
+            "MaxLength": "30",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Last_Name",
+            "DefaultValue": "",
+            "MaxLength": "30",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Gender",
+            "DefaultValue": "",
+            "MaxLength": "15",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Birthday",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Age",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Number"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Lumen Things"
+}

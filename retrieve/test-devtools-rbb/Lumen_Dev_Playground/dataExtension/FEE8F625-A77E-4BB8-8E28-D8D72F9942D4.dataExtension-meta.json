@@ -1,0 +1,78 @@
+{
+    "CreatedDate": "2022-02-08T02:00:47.01",
+    "ModifiedDate": "2022-02-08T02:00:47.01",
+    "CustomerKey": "FEE8F625-A77E-4BB8-8E28-D8D72F9942D4",
+    "Name": "TELCO EMAIL",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "Contact_Number"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "First_Name",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Last_Name",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Gender",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Email_Address",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Address",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Birthday",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Contact_Number",
+            "DefaultValue": "",
+            "MaxLength": "11",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Training/FY22/Sept 27- Oct 1/TELCO"
+}

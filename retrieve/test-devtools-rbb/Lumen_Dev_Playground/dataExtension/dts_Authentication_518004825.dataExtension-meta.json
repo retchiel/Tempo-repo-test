@@ -1,0 +1,52 @@
+{
+    "CreatedDate": "2022-02-08T08:11:46.827",
+    "ModifiedDate": "2022-02-08T08:11:46.827",
+    "CustomerKey": "dts_Authentication_518004825",
+    "Name": "dts_Authentication_518004825",
+    "Description": "",
+    "IsSendable": "false",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "AuthProvider"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "AuthProvider",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Token",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Salt",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "EncryptedHash",
+            "DefaultValue": "",
+            "MaxLength": "4000",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions"
+}

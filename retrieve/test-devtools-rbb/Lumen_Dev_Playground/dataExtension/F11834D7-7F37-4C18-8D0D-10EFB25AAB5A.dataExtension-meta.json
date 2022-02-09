@@ -1,0 +1,85 @@
+{
+    "CreatedDate": "2022-02-08T03:15:58.05",
+    "ModifiedDate": "2022-02-08T03:15:58.05",
+    "CustomerKey": "F11834D7-7F37-4C18-8D0D-10EFB25AAB5A",
+    "Name": "AAGroup1_MarketingCloudCaseStudy-template",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "true",
+    "SendableDataExtensionField": {
+        "Name": "EmailAddress"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "FirstName",
+            "DefaultValue": "",
+            "MaxLength": "20",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "LastName",
+            "DefaultValue": "",
+            "MaxLength": "20",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "EmailAddress",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "ContactNumber",
+            "DefaultValue": "",
+            "MaxLength": "50",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Phone"
+        },
+        {
+            "Name": "Date",
+            "DefaultValue": "GetDate()",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Subscription",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Boolean"
+        },
+        {
+            "Name": "Time",
+            "DefaultValue": "6 AM",
+            "MaxLength": "10",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "FoodPref",
+            "DefaultValue": "",
+            "MaxLength": "20",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Lumen Things"
+}

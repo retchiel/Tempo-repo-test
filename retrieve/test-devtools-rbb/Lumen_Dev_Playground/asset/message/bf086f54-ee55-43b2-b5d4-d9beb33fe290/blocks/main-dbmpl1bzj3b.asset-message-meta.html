@@ -1,0 +1,35 @@
+<table cellpadding="0" cellspacing="0" width="100%" role="presentation" style="background-color: #F7EFE2; min-width: 100%; " class="stylingblock-content-wrapper"><tr><td style="padding: 0px; " class="stylingblock-content-wrapper camarker-inner">%%[
+SET @foodPref = FoodPref
+]%%
+
+<style>
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  text-align:center;
+  font-family:sans-serif;
+  background-color:#F7EFE2;
+  
+}
+.fontsize{
+  font-size: 0.875em;
+}
+  hr{
+  height:1px;
+  background-color:#392e2c;
+  }
+</style>
+<div class="center" style="color:#141414;">
+<br><br> <hr class="hr">
+ <h2>Welcome <span style="color:#392e2c;"><strong>%%FirstName%% </strong></span></h2><hr> <br><br>
+  Give your palates a taste of the world and let your imaginations run <br><br> wild as sumptuous international dishes are served in a first-class <br><br> interactive dining setting that is uniquely <span style="color:#d7aa59;"><strong> The Profuse Buffet </strong></span> <br><br> Your scheduled dine in date is on <span style="color:#d7aa59;"><strong> %%=Format(Date,"MMM dd, yyyy")=%% at %%Time%% </strong> </span> <br><br>
+ 
+%%[
+IF @foodPref == 'Asian' OR @foodPref == 'Western' OR @foodPref == 'Mediterranean' THEN]%%
+Enjoy the <span style="color:#d7aa59;"><strong> %%=v(@foodPref)=%% </strong> </span> cuisine!</div>
+  
+%%[ELSEIF @foodPref == 'None' THEN]%%
+Enjoy and have a blast!
+
+%%[ENDIF]%%</td></tr></table>

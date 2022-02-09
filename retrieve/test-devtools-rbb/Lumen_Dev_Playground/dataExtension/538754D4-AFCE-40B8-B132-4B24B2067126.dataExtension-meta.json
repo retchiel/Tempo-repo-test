@@ -1,0 +1,122 @@
+{
+    "CreatedDate": "2022-02-08T03:15:59.8",
+    "ModifiedDate": "2022-02-08T03:15:59.8",
+    "CustomerKey": "538754D4-AFCE-40B8-B132-4B24B2067126",
+    "Name": "Roman Male Balance Level-template",
+    "Description": "",
+    "IsSendable": "true",
+    "IsTestable": "false",
+    "SendableDataExtensionField": {
+        "Name": "Customer_Number"
+    },
+    "SendableSubscriberField": {
+        "Name": "Subscriber Key"
+    },
+    "RowBasedRetention": "false",
+    "ResetRetentionPeriodOnImport": "false",
+    "DeleteAtEndOfRetentionPeriod": "false",
+    "RetainUntil": "",
+    "Fields": [
+        {
+            "Name": "Email_Address",
+            "DefaultValue": "",
+            "MaxLength": "254",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "EmailAddress"
+        },
+        {
+            "Name": "Customer_Number",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "true",
+            "FieldType": "Number"
+        },
+        {
+            "Name": "First_Name",
+            "DefaultValue": "",
+            "MaxLength": "30",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Last_Name",
+            "DefaultValue": "",
+            "MaxLength": "30",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "State",
+            "DefaultValue": "",
+            "MaxLength": "2",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Opt_in_Date",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Interest",
+            "DefaultValue": "Camping",
+            "MaxLength": "15",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "MyNTO_Level",
+            "DefaultValue": "",
+            "MaxLength": "8",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "MyNTO",
+            "DefaultValue": "",
+            "MaxLength": "3",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "MyNTO_Balance",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Number"
+        },
+        {
+            "Name": "Gender",
+            "DefaultValue": "",
+            "MaxLength": "7",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Text"
+        },
+        {
+            "Name": "Birthday",
+            "DefaultValue": "",
+            "IsRequired": "false",
+            "IsPrimaryKey": "false",
+            "FieldType": "Date"
+        },
+        {
+            "Name": "Store_ID",
+            "DefaultValue": "",
+            "IsRequired": "true",
+            "IsPrimaryKey": "false",
+            "FieldType": "Number"
+        }
+    ],
+    "r__folder_ContentType": "dataextension",
+    "r__folder_Path": "Data Extensions/Lumen Things"
+}
